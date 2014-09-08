@@ -6,7 +6,6 @@
 	background-size: cover;
 	padding: 20px 0 200px 0;
 	height: auto;
-	color: #fefefe;
 }
 
 #hero a, #hero h1  {
@@ -27,3 +26,27 @@
 	padding-top: 130px;
 }
 
+.navbar-default {
+	opacity: 0;
+}
+
+#logo{
+	display: none;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 72px;
+    line-height: 108px;
+    height: 108px;
+    background: #335C7D;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    
+    // set animation
+    -webkit-transition: all 0.9s ease;
+    transition: all 0.9s ease;
+}
+
+#logo.show {
+    display: block;
+}
