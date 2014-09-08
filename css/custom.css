@@ -1,3 +1,67 @@
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('../fonts/AvenirNext-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AvenirNext-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/AvenirNext-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AvenirNext-Regular.svg#fe299bf9c71888f1da7b2c2d74973b56') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+	font-family: 'Avenir Next Medium';
+	src: url('../fonts/AvenirNext-Medium.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('../fonts/AvenirNext-Medium.woff') format('woff'), /* Modern Browsers */
+			url('../fonts/AvenirNext-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+			url('../fonts/AvenirNext-Medium.svg#5ff54762f5b331a06e3ae1fbf17e8ff4') format('svg'); /* Legacy iOS */
+
+	font-style:   normal;
+	font-weight:  400;
+}
+
+@font-face {
+	font-family: 'Brandon Printed Two';
+	src: url('../fonts/Brandon Printed Two.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Brandon Printed Two.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('../fonts/Brandon Printed Two.woff') format('woff'), /* Modern Browsers */
+			url('../fonts/Brandon Printed Two.ttf')  format('truetype'), /* Safari, Android, iOS */
+			url('../fonts/Brandon Printed Two.svg#e878380ff91e616e36adaba2c5226640') format('svg'); /* Legacy iOS */
+
+	font-style:   normal;
+	font-weight:  400;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Roboto-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Roboto-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Roboto-Regular.svg#f4ba68a9596ca53347cecdb9c6e48d01') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+
+h1{
+font-family: 'Brandon Printed Two';
+font-size: 36px;
+}
+h2{
+	font-family: 'Avenir Next';
+	font-size: 26px;
+}
+h3{
+	font-family: 'Avenir Next Medium';
+	font-size:24px;
+}
+h4{
+font-family: 'Avenir Next';
+font-size: 13px;
+color: white;
+}
 a {
 	color: #7cc576;
 }
@@ -30,7 +94,7 @@ h2:after {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding: 20px 0 200px 0;
+	padding: 20px 0 380px 0;
 	height: auto;
 }
 
@@ -76,6 +140,9 @@ h2:after {
 
 .btn-success {
 	background-color: #7cc576;
+	font-family: 'Roboto';
+	font-size: 16px;
+
 }
 
 .inner {
@@ -103,7 +170,12 @@ background: #7CC576;
 .icon {
 	background-color: #7cc576;
 }
-
+.red{
+	color:#C52033;
+}
+.teacher{
+	padding-left: 80px;
+}
 /* typed js styling */
 
 /* code for animated blinking cursor */
