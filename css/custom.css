@@ -1,5 +1,5 @@
 .hero {
-	background: url('../img/hero-image-small.png') no-repeat center center;
+	background: url('../img/hero-image.png') no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -41,7 +41,7 @@
     background: #335C7D;
     color: #fff;
     font-family: 'PT Sans', sans-serif;
-    
+
     // set animation
     -webkit-transition: all 0.9s ease;
     transition: all 0.9s ease;
