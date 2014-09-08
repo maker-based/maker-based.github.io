@@ -1,7 +1,21 @@
+a {
+	color: #7cc576;
+}
+
 /* navbar */
 
 .navbar-default {
 	opacity: 0;
+	background-color: #202d30;
+	border-color: #202d30;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+	color: #fefefe;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #7cc576;
 }
 
 /* hero section */
