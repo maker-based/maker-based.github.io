@@ -84,40 +84,16 @@ height:88px;
 background: #7CC576;
 }
 
+#why {
+	background-color: #fefefe;
+}
+
 #how{
 	padding-bottom: 100px;
 }
 
 /* typed js styling */
 
-<<<<<<< HEAD
-.divider{
-font-size:24px;
-color:white;
-padding-top:10px;
-height:88px;
-background: #7CC576;
-}
-
-#how{
-	padding-bottom: 100px;
-}
-
-#logo{
-	display: none;
-    position: fixed;
-    width: 100%;
-    text-align: center;
-    font-size: 72px;
-    line-height: 108px;
-    height: 108px;
-    background: #335C7D;
-    color: #fff;
-    font-family: 'PT Sans', sans-serif;
-
-    /* // set animation */
-    -webkit-transition: all 0.9s ease;
-    transition: all 0.9s ease;
 /* code for animated blinking cursor */
 .typed-cursor{
     opacity: 1;
