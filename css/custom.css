@@ -1,5 +1,13 @@
+/* navbar */
+
+.navbar-default {
+	opacity: 0;
+}
+
+/* hero section */
+
 .hero {
-	background: url('../img/hero-image.png') no-repeat center bottom;
+	background: url('../img/hero-image.jpg') no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -11,6 +19,12 @@
 #hero a, #hero h1  {
 	color: #fefefe;
 	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+
+.hero h1 span {
+	color: inherit;
+	display: inline;
 }
 
 #hero h3 {
@@ -26,10 +40,9 @@
 	padding-top: 130px;
 }
 
-.navbar-default {
-	opacity: 0;
-}
+/* typed js styling */
 
+<<<<<<< HEAD
 .divider{
 font-size:24px;
 color:white;
@@ -54,11 +67,41 @@ background: #7CC576;
     color: #fff;
     font-family: 'PT Sans', sans-serif;
 
-    // set animation
+    /* // set animation */
     -webkit-transition: all 0.9s ease;
     transition: all 0.9s ease;
+/* code for animated blinking cursor */
+.typed-cursor{
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    -ms-animation: blink 0.7s infinite;
+    -o-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
 }
-
-#logo.show {
-    display: block;
+@-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-ms-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
