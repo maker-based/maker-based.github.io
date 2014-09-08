@@ -19,6 +19,7 @@
 #hero a, #hero h1  {
 	color: #fefefe;
 	text-transform: capitalize;
+	letter-spacing: 1px;
 }
 
 .hero h1 span {
