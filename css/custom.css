@@ -2,6 +2,10 @@ a {
 	color: #7cc576;
 }
 
+h2:after {
+	border-color: #7cc576;
+}
+
 /* navbar */
 
 .navbar-default {
@@ -70,6 +74,10 @@ a {
 	margin-top: -5px;
 }
 
+.btn-success {
+	background-color: #7cc576;
+}
+
 .inner {
 	padding-top: 130px;
 }
@@ -90,6 +98,10 @@ background: #7CC576;
 
 #how{
 	padding-bottom: 100px;
+}
+
+.icon {
+	background-color: #7cc576;
 }
 
 /* typed js styling */
