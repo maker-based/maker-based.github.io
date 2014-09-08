@@ -46,12 +46,7 @@ Typography
 /* * Addresses font sizes and margins set differently in IE 6/7.
 * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5, * and Chrome. */
 
-h1 { font-size: 2em; margin: 0.67em 0; color: #353535; }
-h2 { font-size: 1.5em; margin: 0.83em 0; }
-h3 { font-size: 1.17em; margin: 1em 0; }
-h4 { font-size: 1em; margin: 1.33em 0; }
-h5 { font-size: 0.83em; margin: 1.67em 0; }
-h6 { font-size: 0.75em; margin: 2.33em 0; }
+
 /* * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome. */
 abbr[title] { border-bottom: 1px dotted; }
 /* * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome. */
@@ -173,9 +168,8 @@ Global Styles
 ========================================================================== */
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 a:hover, a:focus { color: #3dc9b3; text-decoration: none; }
-p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
-h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
-h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px; margin: 25px auto; }
+p { color: #000; word-spacing: 1px; line-height: 25px; font-size: 14px; }
+
 .section-padding { padding: 90px 0 100px }
 .dark-bg { background: #f3f5f8; }
 .light-bg { background-color: #fff; }
@@ -186,7 +180,7 @@ h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px
 .box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
 .wrapper { height: 650px; }
 .nopadding { padding: 0; }
-.inner { padding-top: 170px; }
+.inner { padding-top: 70px; }
 /* ==========================================================================
 Navigation
 ========================================================================== */
