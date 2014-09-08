@@ -50,8 +50,7 @@ font-family: 'Brandon Printed Two';
 font-size: 36px;
 }
 h2{
-	font-family: 'Avenir Next';
-	font-size: 26px;
+	font-size: 22px;
 }
 h3{
 	font-family: 'Avenir Next Medium';
@@ -61,6 +60,10 @@ h4{
 font-family: 'Avenir Next';
 font-size: 13px;
 color: white;
+}
+
+p {
+	color: #666;
 }
 a {
 	color: #7cc576;
@@ -94,11 +97,11 @@ h2:after {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding: 20px 0 380px 0;
+	padding: 20px 0 260px 0;
 	height: auto;
 }
 
-#hero a, #hero h1  {
+#hero p, #hero h1  {
 	color: #fefefe;
 	text-transform: capitalize;
 	letter-spacing: 1px;
@@ -111,6 +114,15 @@ h2:after {
 
 #hero h3 {
 	color: #fefefe;
+}
+
+#hero h3 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#hero p {
+	margin-top: -10px;
 }
 
 #hero .form-control {
@@ -169,6 +181,11 @@ background: #7CC576;
 
 .icon {
 	background-color: #7cc576;
+	height: 135px;
+	width: 135px;
+	line-height: 135px;
+	border: 3px solid rgba(255, 255, 255, .7);
+	color: rgba(255, 255, 255, .7);
 }
 .red{
 	color:#C52033;
@@ -176,6 +193,29 @@ background: #7CC576;
 .teacher{
 	padding-left: 80px;
 }
+
+/* icons */
+
+.icon-red {
+	background-color: #e74c3c;
+}
+
+.icon-blue {
+	background-color: #2980b9;
+}
+
+.icon-purple {
+	background-color: #9b59b6;
+}
+
+.icon-orange {
+	background-color: #f39c12;
+}
+
+.icon-teal {
+	background-color: #2ecc71;
+}
+
 /* typed js styling */
 
 /* code for animated blinking cursor */
