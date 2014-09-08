@@ -1,0 +1,29 @@
+.hero {
+	background: url('../img/hero-image-small.png') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 20px 0 200px 0;
+	height: auto;
+	color: #fefefe;
+}
+
+#hero a, #hero h1  {
+	color: #fefefe;
+	text-transform: capitalize;
+}
+
+#hero h3 {
+	color: #fefefe;
+}
+
+#hero .form-control {
+	width: 75%;
+	display: inline;
+}
+
+.inner {
+	padding-top: 130px;
+}
+
