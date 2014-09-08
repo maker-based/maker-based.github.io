@@ -30,6 +30,18 @@
 	opacity: 0;
 }
 
+.divider{
+font-size:24px;
+color:white;
+padding-top:10px;
+height:88px;
+background: #7CC576;
+}
+
+#how{
+	padding-bottom: 100px;
+}
+
 #logo{
 	display: none;
     position: fixed;
