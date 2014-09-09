@@ -235,6 +235,31 @@ background: #7CC576;
 	background-color: #2ecc71;
 }
 
+/* Guarantee Section */
+
+#guarantee .btn {
+	margin-top: 5px;
+}
+
+#guarantee p {
+	margin-top: 0;
+}
+
+#guarantee img {
+	border-radius: 120px;
+}
+
+/* Thank You Page */
+
+#thank-you i {
+	float: left;
+	margin-top: 15px;
+}
+
+#thank-you p, #thank-you form {
+	margin-left: 50px;
+}
+
 /* typed js styling */
 
 /* code for animated blinking cursor */
