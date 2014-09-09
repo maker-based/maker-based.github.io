@@ -72,7 +72,11 @@ a {
 h2:after {
 	border-color: #7cc576;
 }
-
+.green{
+  background-color: #7CC576;
+  color: white;
+}
+.section-padding-medium { padding: 45px 0 50px }
 /* navbar */
 
 .navbar-default {
@@ -154,11 +158,20 @@ h2:after {
 	background-color: #7cc576;
 	font-family: 'Roboto';
 	font-size: 16px;
-
+  border-radius: 6;
+padding: 10px;
 }
-
+button{
+  border-radius: 6px;
+}
 .inner {
 	padding-top: 130px;
+}
+.left{
+  float: left;
+}
+.right{
+  float:right;
 }
 
 /* other section */
