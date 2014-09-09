@@ -92,7 +92,13 @@ h2:after {
 .navbar-default .navbar-nav>li>a:hover {
 	color: #7cc576;
 }
-
+.stats{
+  color:#7CC576;
+  font-size: 24px;
+  border-radius: 10px;
+  border-bottom: 1px solid #7CC576;
+  padding: 20px;
+}
 /* hero section */
 
 .hero {
