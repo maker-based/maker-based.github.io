@@ -45,12 +45,23 @@
   font-weight:  400;
 }
 
-h1{
-font-family: 'Brandon Printed Two';
-font-size: 36px;
+#hero h1{
+	font-family: 'Brandon Printed Two';
+	font-size: 40px;
+	font-weight: 400;
+}
+
+h1 {
+	font-family: helvetica, inherit;
+	font-weight: 900;
+	color: #555;
 }
 h2{
 	font-size: 22px;
+	font-family: helvetica, inherit;
+	font-weight: 200;
+	color: #555;
+	line-height: 1.5;
 }
 h3{
 	font-family: 'Avenir Next Medium';
@@ -69,6 +80,12 @@ a {
 	color: #7cc576;
 }
 
+hr {
+	margin: -10px auto 40px;
+	border-top: 5px solid #7cc576;
+	width: 10%;
+}
+
 h2:after {
 	border-color: #7cc576;
 }
@@ -81,24 +98,30 @@ h2:after {
 
 .navbar-default {
 	opacity: 0;
-	background-color: #202d30;
-	border-color: #202d30;
+	border: none;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+	background-color: #FEFEFE;
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
-	color: #fefefe;
+	color: #555555;
+	font-weight: 600;
+	letter-spacing: .5px;
+	font-size: 14px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
 	color: #7cc576;
 }
-.stats{
-  color:#7CC576;
-  font-size: 24px;
-  border-radius: 10px;
-  border-bottom: 1px solid #7CC576;
-  padding: 20px;
+
+.navbar-default .navbar-brand {
+	padding: 12px 10px 10px 10px;
 }
+
+.navbar-brand img {
+	max-height: 90%;
+}
+
 /* hero section */
 
 .hero {
@@ -198,6 +221,21 @@ background: #7CC576;
 	padding-bottom: 100px;
 }
 
+.intro h1 {
+	margin-bottom: 30px;
+	margin-top: -10px;
+}
+
+.intro p {
+	margin-top: 30px;
+}
+
+.intro p.text-just {
+	margin-top: 50px;
+	font-size: 1.2em;
+	color: #333;
+}
+
 .icon {
 	background-color: #7cc576;
 	height: 135px;
@@ -211,6 +249,10 @@ background: #7CC576;
 }
 .teacher{
 	padding-left: 80px;
+}
+
+.text-just {
+	text-align: justify;
 }
 
 /* icons */
