@@ -143,6 +143,14 @@ footer p {
 	color: #F0C30F;
 }
 
+.twitter {
+	display: none;
+	position: fixed;
+	top: 377px;
+	left: 20%;
+	z-index: 9999999999;
+}
+
 @media (max-width: 1199px) {
 	.main h1 {
 		font-size: 40px;
