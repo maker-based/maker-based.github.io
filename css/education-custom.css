@@ -162,7 +162,7 @@ h2:after {
 
 #hero h3 {
 	margin-top: 10px;
-	margin-bottom: 90px;
+	margin-bottom: 50px;
 	color: #7cc576;
 	text-transform: capitalize;
 	font-weight: 100;
@@ -190,10 +190,68 @@ h2:after {
 	font-size: 20px;
 }
 
-#hero .btn {
-	width: 29%;
-	font-size: 17px;
+#hero .btn-link {
+	font-size: 21px;
+	font-weight: 100;
+	color: #BBBBBB;
+}
+
+#hero .btn-default {
+	font-size: 28px;
 	margin-top: -5px;
+	font-weight: 800;
+	/*background-color: #47a447;
+	border-color: #398439;*/
+	padding: 10px 30px;
+	text-transform: capitalize;
+	color: #7CC576;
+}
+
+.second {
+	margin-bottom: 50px;
+}
+
+/* Announcement */
+
+.copy {
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.copy .button {
+	display: inline-block;
+	padding: 6px 10px;
+	background: rgba(46, 204, 113, 1);
+	color: #fff;
+	line-height: 1;
+	border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	font-size: 11px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	margin-right: 10px;
+	vertical-align: bottom;
+}
+
+.green .copy .button {
+	background: #fefefe;
+	color: rgba(46, 204, 113, 1);
+	border-top: 1px solid rgba(46, 204, 113, 1);
+}
+
+.copy a:hover  {
+	color: #fefefe;
+}
+
+h3.copy, .copy a {
+font-size: 14px;
+color: #4A4A4A;
+line-height: 20px;
+letter-spacing: 0px;
+font-weight: 300;
+margin: 0;
 }
 
 .pad-top-20{
@@ -262,10 +320,12 @@ h2.sig {
 }
 
 #sign .btn {
-  width: 40%;
-  font-size: 17px;
-  margin-top: -5px;
-  float:right;
+	width: 80%;
+	font-size: 17px;
+	text-decoration: none;
+	margin-bottom: 10px;
+	color: #7cc576;
+	font-weight: 800;
 }
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    #D8D8D8 !important;
@@ -434,6 +494,7 @@ background: #7CC576;
 
 #guarantee .btn {
 	margin-top: 5px;
+	width: 90%;
 }
 
 #guarantee p {
@@ -442,6 +503,42 @@ background: #7CC576;
 
 #guarantee img {
 	border-radius: 120px;
+}
+
+/* Form Page */
+
+#form .navbar-default {
+	opacity: 1;
+}
+
+#form {
+	padding-top: 70px;
+}
+
+#form h2 {
+	font-weight: 800;
+}
+
+#form hr {
+	margin: 20px 0;
+	width: 100%;
+	border-top: 2px solid #7cc576;
+}
+
+#form .ss-choices {
+	list-style-type: none;
+}
+
+#form .btn-success {
+	padding: 10px 40px;
+}
+
+#form form {
+	margin-bottom: 60px;
+}
+
+#form .form-group {
+	margin-bottom: 25px;
 }
 
 /* Thank You Page */
