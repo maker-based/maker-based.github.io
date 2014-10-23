@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('http://maker-based.github.io/fonts/AvenirNext-Bold.eot'); /* IE9 Compat Modes */
+  src: url('http://maker-based.github.io/fonts/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('http://maker-based.github.io/fonts/AvenirNext-Bold.woff') format('woff'), /* Modern Browsers */
+       url('http://maker-based.github.io/fonts/AvenirNext-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('http://maker-based.github.io/fonts/AvenirNext-Bold.svg#92550229aad14ffa2dc273e49410d17e') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('http://maker-based.github.io/fonts/AvenirNext-Regular.eot'); /* IE9 Compat Modes */
+  src: url('http://maker-based.github.io/fonts/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('http://maker-based.github.io/fonts/AvenirNext-Regular.woff') format('woff'), /* Modern Browsers */
+       url('http://maker-based.github.io/fonts/AvenirNext-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('http://maker-based.github.io/fonts/AvenirNext-Regular.svg#fe299bf9c71888f1da7b2c2d74973b56') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  300;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('http://maker-based.github.io/fonts/AvenirNext-Medium.eot'); /* IE9 Compat Modes */
+  src: url('http://maker-based.github.io/fonts/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('http://maker-based.github.io/fonts/AvenirNext-Medium.woff') format('woff'), /* Modern Browsers */
+       url('http://maker-based.github.io/fonts/AvenirNext-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('http://maker-based.github.io/fonts/AvenirNext-Medium.svg#5ff54762f5b331a06e3ae1fbf17e8ff4') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  500;
+}
+
+body, button, h1, h2, h3, p {
+	font-family: 'Avenir Next', 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+body {
+  color: #4a4a4a;
+}
+
+.navbar-nav > li > a {
+font-size: 14px;
+padding: 15px 21px;
+line-height: 23px;
+font-weight: 500;
+}
+
+#course_mainbar h6 {
+color: #666666;
+font-weight: bold;
+}
+
+.section_div {
+  background-color: #eaeaea;
+}
+
+.btn-primary {
+  background-color: #7cc576;
+}
+
+.nav-icon {
+  font-size: 22px;
+}
+
+.lecture_div_active {
+  color: #fefefe !important;
+  background-color: #7cc576 !important;
+}
+
+.lecture_div_active i, .lecture_div_active:hover i {
+  color: #fefefe;
+}
+
+.lecture_div:hover {
+  color: #7cc576;
+  background-color: #fefefe;
+}
