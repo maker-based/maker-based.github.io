@@ -1,0 +1,334 @@
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('../fonts/AvenirNext-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AvenirNext-Bold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/AvenirNext-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AvenirNext-Bold.svg#92550229aad14ffa2dc273e49410d17e') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('../fonts/AvenirNext-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AvenirNext-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AvenirNext-Regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/AvenirNext-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AvenirNext-Regular.svg#fe299bf9c71888f1da7b2c2d74973b56') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  300;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('../fonts/AvenirNext-Medium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/AvenirNext-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/AvenirNext-Medium.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/AvenirNext-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/AvenirNext-Medium.svg#5ff54762f5b331a06e3ae1fbf17e8ff4') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  500;
+}
+
+body, button, h1, h2, h3, p {
+	font-family: 'Avenir Next', 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+h1 {
+	font-weight: 900;
+	color: #555;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: 800;
+	color: #444;
+	line-height: 32px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 14px;
+	color: #4A4A4A;
+	line-height: 20px;
+	letter-spacing: 0px;
+	font-weight: 300;
+}
+
+p {
+	color: #4A4A4A;
+	line-height: 19px;
+	font-size: 16px;
+}
+
+hr {
+	margin: -10px auto 40px;
+	border-top: 5px solid #7cc576;
+	width: 10%;
+}
+
+.btn {
+	font-weight: 700;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+a {
+  color: #7cc576;
+}
+
+#course-page section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#course-page .navbar {
+  background-color: transparent;
+  border: none;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+#course-page .navbar-brand img {
+  width: 270px;
+}
+
+#course-page .navbar-inverse .navbar-nav>li>a {
+  color: #fefefe;
+  opacity: .7;
+  text-transform: uppercase;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+#course-page .hero {
+  background: url('../img/hero-bg-dark.jpg') no-repeat center center;
+  padding-top: 100px;
+  padding-bottom: 170px;
+  border-top: 5px solid #7cc576;
+  background-size: 100%;
+  background-position-y: bottom;
+  text-align: center;
+  margin-top: -55px;
+}
+
+#course-page .hero h1 {
+  color: #FFFFFF;
+  line-height: 45px;
+  text-shadow: 0px 2px 4px rgba(0,0,0,0.54);
+  font-weight: 900;
+  padding: 50px 130px 0px;
+  margin-bottom: 5px;
+}
+
+#course-page .hero h3 {
+  margin-top: 0px;
+  font-size: 18px;
+  font-weight: 100;
+  color: #efefef;
+  margin-bottom: 30px;
+}
+
+#course-page .hero p {
+  margin-bottom: 20px;
+}
+
+#course-page .testimonies {
+  text-align: center;
+  border-bottom: 1px solid #efefef;
+  padding-top: 0;
+}
+
+#course-page .testimonies .row {
+  margin-top: -25px;
+}
+
+#course-page .testimonies img {
+  width: 120px;
+  border: 3px solid #7cc576;
+  border-radius: 75px;
+}
+
+#course-page .testimonies h4 {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+#course-page .testimonies p {
+  font-size: 14px;
+  color: #6a6a6a;
+}
+
+#course-page .emphasis {
+  color: #7cc576;
+}
+
+#course-page #info, #course-page #letter {
+  padding-top: 50px;
+  background-color: #fafafa;
+  border-bottom: 1px solid #efefef;
+}
+
+#course-page #info h2 {
+  font-weight: 800;
+  font-size: 36px;
+}
+
+#course-page #info .headline {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+
+#course-page #info .headline h3 {
+  font-size: 17px;
+  color: #676767;
+}
+
+#course-page #info .headline h4 {
+  color: #676767;
+}
+
+#course-page #info .headline a, #course-page #info .headline a:hover {
+  color: #676767;
+  text-decoration: none;
+}
+
+#course-page #info .tab-content {
+  padding: 50px 40px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+#course-page .tab-pane h3, #course-page .tab-pane h2 {
+  font-weight: 800;
+}
+
+#course-page .tab-pane h2 {
+  font-size: 26px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+#course-page .tab-pane h3 {
+  color: #7cc756;
+  font-size: 17px;
+}
+
+#course-page .tab-pane p {
+  font-weight: 100;
+}
+
+#course-page #about h3 {
+  text-align: center;
+}
+
+#course-page #learn {
+  text-align: center;
+}
+
+#course-page #learn h4 {
+  margin-top: 29px;
+  font-weight: 800;
+  color: #4a4a4a;
+}
+
+#course-page #about .fa-stack {
+  margin-right: 10px;
+}
+
+#course-page #about .fa-circle {
+  color: rgba(46, 204, 113, .4);
+}
+
+#course-page #about p {
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  line-height: 1.6;
+  font-weight: 100;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#course-page #reviews p {
+  font-weight: 100;
+  line-height: 1.6;
+  margin: 30px 0;
+}
+
+#course-page #instructor {
+  text-align: left;
+  border-bottom: 1px solid #efefef;
+}
+
+#course-page #instructor h2 {
+  font-weight: 800;
+  text-align: left;
+}
+
+#course-page #instructor p {
+  color: #676767;
+  line-height: 1.3;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+#course-page .note {
+  text-align: left;
+  padding: 25px 50px;
+  background-color: #fefefe;
+  -webkit-box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.5);
+  -moz-box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.5);
+  box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.5);
+}
+
+#course-page #letter h2 {
+  margin-bottom: 40px;
+}
+
+#course-page .note p {
+  font-size: 18px;
+  text-rendering: optimizeLegibility;
+  line-height: 1.6;
+  font-weight: 100;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#course-page .info-button {
+  text-align: center;
+  margin: 40px 0;
+}
+
+/*#course-page .left-pane {
+  border: 3px solid rgba(46, 204, 113, .5);
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#html .left-pane h3 {
+  font-weight: 800;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+#html .left-pane p {
+  font-size: 13px;
+  font-weight: 300;
+  margin-left: 25px;
+}
+
+#html .left-pane .fa-stack {
+  font-size: 10px;
+  margin-right: 5px;
+  margin-left: -25px;
+}*/

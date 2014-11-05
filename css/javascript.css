@@ -59,22 +59,25 @@ p {
 }
 
 h1.brand {
-	font-size: 24px;
+	font-size: 20px;
 	color: #666;
 }
 
 .brand img {
 	padding-right: 5px;
+	height: 30px;
+	vertical-align: text-bottom;
 }
 
 .main {
-	padding-bottom: 70px;
+	padding-bottom: 90px;
+	padding-top: 30px;
 }
 
 .main h1 {
 	text-align: center;
-	font-size: 48px;
-	line-height: 58px;
+	font-size: 42px;
+	line-height: 52px;
 	text-transform: uppercase;
 	letter-spacing: -1px;
 	padding-top: 20px;
@@ -83,7 +86,7 @@ h1.brand {
 
 .main fieldset {
 	background: #FEFEFE;
-	border: 2px solid #F0C30F;
+	border: 2px solid rgba(92, 184, 230, 1);
 }
 
 .main input {
@@ -99,7 +102,7 @@ h1.brand {
 	float: right;
 	height: 38px;
 	width: 30%;
-	background-color: #F0C30F;
+	background-color: rgba(92, 184, 230, 1);
 	color: #fefefe;
 	font-size: 18px;
 	font-weight: 700;
@@ -114,14 +117,14 @@ h1.brand {
 .right {
 	margin-left: 7%;
 	padding-left: 5%;
-	border-left: 5px solid #FAEDB7;
+	border-left: 5px solid rgba(92, 184, 230, .9);
 	width: 64%;
 	padding-top: 5px;
 	padding-bottom: 10px;
 }
 
 footer {
-	background-color: #F7E187;
+	background-color: rgba(92, 184, 230, .7);
 	text-align: center;
 	padding-bottom: 10px;
 }
@@ -141,7 +144,7 @@ footer p {
 }
 
 .highlight {
-	color: #F0C30F;
+	color: rgba(92, 184, 230, 1);
 }
 
 .twitter {
@@ -154,24 +157,24 @@ footer p {
 
 /* Announcement */
 
-.yellow {
-	background-color: #F7E187;
+.blue {
+	background-color: rgba(92, 184, 230, .7);
 	text-align: center;
 	padding-bottom: 10px;
 }
 
-.yellow.top {
+.blue.top {
 	padding-bottom: 0px;
 }
 
-.yellow h2 {
+.blue h2 {
 	font-weight: 900;
 	font-size: 17px;
 	color: #FEFEFE;
 	line-height: 26px;
 }
 
-.yellow.top h3 {
+.blue.top h3 {
 	font-weight: 500;
 	font-size: 17px;
 	color: #FEFEFE;
@@ -182,13 +185,13 @@ footer p {
 	padding-bottom: 10px;
 }
 
-.yellow.top a {
+.blue.top a {
 	font-size: 16px;
 	color: #FFFFFF;
 	line-height: 18px;	
 }
 
-.yellow.top a:hover {
+.blue.top a:hover {
 	text-decoration: none;
 }
 
@@ -214,10 +217,10 @@ footer p {
 	vertical-align: bottom;
 }
 
-.yellow .copy .button {
+.blue .copy .button {
 	background: #fefefe;
-	color: #F0C30F;
-	border-top: 1px solid #F0C30F;
+	color: rgba(92, 184, 230, 1);
+	border-top: 1px solid rgba(92, 184, 230, 1);
 }
 
 @media (max-width: 1199px) {

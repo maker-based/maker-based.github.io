@@ -72,7 +72,7 @@ hr {
 }
 
 .btn {
-	font-weight: 300;
+	font-weight: 700;
 	font-size: 16px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -114,11 +114,11 @@ hr {
 
 .navbar-default .navbar-nav.navbar-right>li>a {
 	font-weight: 700;
-	background-color: rgba(0,0,0,.1);
+	/*background-color: rgba(0,0,0,.1);
 	border-radius: 5px;
 	-o-border-radius: 5px;
 	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
+	-moz-border-radius: 5px;*/
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -290,7 +290,6 @@ h4.prompt {
 	border-radius: 8px;
 	background: #FFFFFF;
 	margin: 2%;
-	width: 46%;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -301,7 +300,7 @@ h4.prompt {
 	color: #FEFEFE;
 	font-size: 18px;
 	margin-bottom: 20px;
-	font-weight: 500;
+	font-weight: 300;
 }
 
 .course.javascript {
@@ -371,7 +370,8 @@ h4.prompt {
 }
 
 .btn-warning {
-	background-color: #F0C30F;
+	background-color: #f8da4a;
+	border-color: #f7d531;
 }
 
 .grey {
