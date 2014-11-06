@@ -82,7 +82,7 @@ a {
   color: #7cc576;
 }
 
-#coupon-bar {
+#course-page #coupon_bar {
   background-color: #7cc576;
 }
 
@@ -111,7 +111,7 @@ a {
 }
 
 #course-page .hero {
-  background: url('../img/hero-bg-dark.jpg') no-repeat center center;
+  background: url('http://maker-based.github.io/img/hero-bg-dark.jpg') no-repeat center center;
   padding-top: 100px;
   padding-bottom: 170px;
   border-top: 5px solid #7cc576;
@@ -121,6 +121,7 @@ a {
   margin-top: -55px;
 }
 
+
 #course-page .hero h1 {
   color: #FFFFFF;
   line-height: 45px;
@@ -128,18 +129,28 @@ a {
   font-weight: 900;
   padding: 50px 130px 0px;
   margin-bottom: 5px;
+  font-size: 36px;
 }
 
 #course-page .hero h3 {
   margin-top: 0px;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 100;
   color: #efefef;
   margin-bottom: 30px;
 }
 
+
 #course-page .hero p {
   margin-bottom: 20px;
+}
+
+#course-page #coupon_div {
+margin-top: 0px;
+}
+
+#course-page #coupon_div table {
+margin-left: 25%;
 }
 
 #course-page .testimonies {
@@ -172,6 +183,14 @@ a {
   color: #7cc576;
 }
 
+#course-page #course-image {
+  padding-top: 15px;
+  padding-right: 22px;
+  padding-left: 0px;
+  margin-left: 0px;
+  padding-bottom: 15px;
+}
+
 #course-page #info {
   background-color: #fafafa;
 }
@@ -191,22 +210,26 @@ a {
 
 #course-page #info h2 {
   font-weight: 800;
-  font-size: 36px;
+  font-size: 32px;
+  text-align: center;
 }
 
 #course-page #info .headline {
   text-align: center;
-  margin-top: -10px;
+  margin-top: -20px;
   margin-bottom: 50px;
 }
 
 #course-page #info .headline h3 {
   font-size: 17px;
   color: #676767;
+  margin-top: 20px;
+  font-weight: 300;
 }
 
 #course-page #info .headline h4 {
   color: #676767;
+  font-size: 18px;
 }
 
 #course-page #info .headline a, #course-page #info .headline a:hover {
@@ -217,8 +240,13 @@ a {
 #course-page #info .tab-content {
   padding: 50px 40px;
   background-color: #fff;
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
   border-top: none;
+  border-radius: 0;
+}
+
+#course-page #info .nav-tabs {
+  margin-bottom: 0px;
 }
 
 #course-page .tab-pane h3, #course-page .tab-pane h2 {
@@ -274,7 +302,7 @@ a {
   font-size: 16px;
   text-rendering: optimizeLegibility;
   line-height: 1.6;
-  font-weight: 100;
+  font-weight: 400;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -293,6 +321,8 @@ a {
 #course-page #instructor h2 {
   font-weight: 800;
   text-align: left;
+  font-size: 28px;
+  margin-top: 10px;
 }
 
 #course-page #instructor p {
@@ -313,6 +343,11 @@ a {
 
 #course-page #letter h2 {
   margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: 800;
+  color: #444;
+  line-height: 32px;
+  text-align: center;
 }
 
 #course-page .note p {

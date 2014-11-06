@@ -55,15 +55,20 @@ font-weight: bold;
 }
 
 .section_div {
-  background-color: #eaeaea;
+  background-color: #eaeaea !important;
+}
+
+#secondarynav {
+  border-bottom: 1px solid #ecf0f1 !important;
 }
 
 .btn-primary {
   background-color: #7cc576;
 }
 
-.nav-icon {
-  font-size: 22px;
+.nav_icon {
+  font-size: 22px !important;
+  box-shadow: none !important;
 }
 
 .lecture_div_active {
@@ -72,10 +77,14 @@ font-weight: bold;
 }
 
 .lecture_div_active i, .lecture_div_active:hover i {
-  color: #fefefe;
+  color: #fefefe !important;
 }
 
 .lecture_div:hover {
   color: #7cc576;
-  background-color: #fefefe;
+  background-color: #fefefe !important;
+}
+
+.lecture_div i {
+  color: #4a4a4a !important;
 }
