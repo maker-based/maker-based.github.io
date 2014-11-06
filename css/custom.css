@@ -177,11 +177,7 @@ hr {
 	margin-bottom: 10px;
 }
 
-#hero .btn-success {
-	margin-top: 0px;
-	margin-bottom: 30px;
-	background-color: #58D68D;
-	border-color: #58D68D;
+#hero .btn-lg {
 	border-radius: 3px;
 }
 
