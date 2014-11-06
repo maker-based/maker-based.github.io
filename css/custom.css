@@ -182,6 +182,7 @@ hr {
 	margin-bottom: 30px;
 	background-color: #58D68D;
 	border-color: #58D68D;
+	border-radius: 3px;
 }
 
 #hero .highlight {
